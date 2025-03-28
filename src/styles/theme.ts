@@ -24,33 +24,90 @@ const theme = createTheme({
       marginBottom: '1rem',
       lineHeight: 1.2,
       fontWeight: 600,
+      '@media (max-width: 1600px)': {
+        fontSize: '4rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '2.5rem',
+        marginBottom: '0.75rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '2rem',
+      },
     },
     h2: {
       fontSize: '3.25rem',
       fontWeight: 700,
       textAlign: 'center',
+      '@media (max-width: 1200px)': {
+        fontSize: '2.75rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '2rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '1.75rem',
+      },
     },
     h3: {
       fontSize: '2.5rem',
       fontWeight: 600,
       textAlign: 'center',
       color: '#212121',
+      '@media (max-width: 1200px)': {
+        fontSize: '2.25rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '1.75rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '1.5rem',
+      },
     },
     h4: {
       marginBottom: '1rem',
       fontWeight: 700,
       textAlign: 'center',
       color: '#212121',
+      fontSize: '1.75rem',
+      '@media (max-width: 1200px)': {
+        fontSize: '1.5rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '1.25rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '1.125rem',
+      },
     },
     h5: {
       fontWeight: 600,
       color: '#212121',
+      fontSize: '1.5rem',
+      '@media (max-width: 1200px)': {
+        fontSize: '1.25rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '1.125rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '1rem',
+      },
     },
     h6: {
       fontSize: '1.25rem',
       fontWeight: 400,
       color: '#333',
       lineHeight: 1.4,
+      '@media (max-width: 1200px)': {
+        fontSize: '1.125rem',
+      },
+      '@media (max-width: 768px)': {
+        fontSize: '1rem',
+      },
+      '@media (max-width: 600px)': {
+        fontSize: '0.875rem',
+      },
     },
   },
   palette: {
